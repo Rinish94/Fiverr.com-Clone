@@ -344,3 +344,21 @@ h7{
     font-size:18px;
     }
 
+    .right-elem{
+
+               
+        float: right;  
+        height: 600px;
+        padding: 2%;
+        margin: 100px;
+        
+     }
+
+     body { 
+    background: rgb(223, 240, 245); 
+   
+     }
+      .left-elem {
+        margin: 80px;
+      }
+      
