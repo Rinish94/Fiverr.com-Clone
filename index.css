@@ -1,3 +1,52 @@
-body {
-    background-color: aquamarine;
+body{
+    font-family: 'Lato', sans-serif;
+}
+#container1{
+    max-width: 100% ;
+    margin:auto;
+    padding: .8%;
+}
+#container1 > div:nth-child(1){
+    display: flex;
+    justify-content: space-evenly ;
+    background-color: rgb(245, 245, 245);
+    color: grey;
+}
+
+h4{
+    font-weight: 10px;
+    padding: 1%;
+    font-size: 30px;
+    line-height: 30px;
+    color:  rgba(37, 37, 37, 0.836);
+}
+.col1{
+    display: flex;
+    justify-content: space-around;
+    color: whitesmoke;
+}
+.img-box1_1{
+    background-image: url("https://fiverr-res.cloudinary.com/q_auto,f_auto,w_255,dpr_1.0/v1/attachments/generic_asset/asset/055f758c1f5b3a1ab38c047dce553860-1598561741678/logo-design-2x.png");
+    height: 360px;
+    width: 240px;
+}
+.img-box1_2{
+    background-image: url("https://fiverr-res.cloudinary.com/q_auto,f_auto,w_255,dpr_1.0/v1/attachments/generic_asset/asset/ae11e2d45410b0eded7fba0e46b09dbd-1598561917003/wordpress-2x.png");
+    width: 240px;
+}
+.img-box1_3{
+    background-image: url("https://fiverr-res.cloudinary.com/q_auto,f_auto,w_255,dpr_1.0/v1/attachments/generic_asset/asset/055f758c1f5b3a1ab38c047dce553860-1598561741669/voiceover-2x.png");
+    width: 240px;
+}
+.img-box1_4{
+    background-image: url("https://fiverr-res.cloudinary.com/q_auto,f_auto,w_255,dpr_1.0/v1/attachments/generic_asset/asset/055f758c1f5b3a1ab38c047dce553860-1598561741663/animated-explainer-2x.png");
+    width: 240px;
+}
+.img-box1_5{
+    background-image: url("https://fiverr-res.cloudinary.com/q_auto,f_auto,w_255,dpr_1.0/v1/attachments/generic_asset/asset/055f758c1f5b3a1ab38c047dce553860-1598561741667/social-2x.png");
+    width: 240px;
+}
+.text_1{
+    margin: auto;
+    padding: 5%;
 }
