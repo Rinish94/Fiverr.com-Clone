@@ -389,3 +389,34 @@ h7{
          padding: 60px;
          font-style: italic;
       }  
+      dl {
+        margin: 0;
+       
+        font-size: 17px;
+      
+        padding: 0px;
+        
+      }
+                  .col-5 {
+                      display: inline-block;
+        width: 18.7%;
+        min-width: 230px;
+        vertical-align: top;
+      }
+      
+      .footer-outer {
+        padding: 10px 10px;
+      
+        
+      }
+      footer .row:first-child a {
+        color: gray;
+       
+      }
+      footer .row:last-child {padding: .5em;}
+      .col-4 {
+        display: inline-block;
+        width: 24.7%;
+        min-width: 230px;
+        vertical-align: bottom;
+      }
