@@ -359,3 +359,79 @@ h7{
     font-size:18px;
     }
 
+    .right-elem{
+
+               
+        float: right;  
+        height: 600px;
+        padding: 2%;
+        margin: 100px;
+        
+     }
+
+     body { 
+    background: rgb(223, 240, 245); 
+   
+     }
+      .left-elem {
+        margin: 80px;
+      }
+      .logo-container {
+               
+        display: inline-block;
+        
+        max-width: 70px;
+        vertical-align: top;
+        padding: 20px 160px 20px 120px;
+        
+
+     }
+     
+     
+  p {
+      font-size: 15px;
+  }
+      .left-elem{
+
+        margin-top: 60px;
+         float: left ;
+           padding: 50px;
+       }
+      p {
+         margin-top: 100px;
+         float: right;
+         font-size: 20px;
+         padding: 60px;
+         font-style: italic;
+      }  
+      dl {
+        margin: 0;
+       
+        font-size: 17px;
+      
+        padding: 0px;
+        
+      }
+                  .col-5 {
+                      display: inline-block;
+        width: 18.7%;
+        min-width: 230px;
+        vertical-align: top;
+      }
+      
+      .footer-outer {
+        padding: 10px 10px;
+      
+        
+      }
+      footer .row:first-child a {
+        color: gray;
+       
+      }
+      footer .row:last-child {padding: .5em;}
+      .col-4 {
+        display: inline-block;
+        width: 24.7%;
+        min-width: 230px;
+        vertical-align: bottom;
+      }
