@@ -361,4 +361,17 @@ h7{
       .left-elem {
         margin: 80px;
       }
-      
+      .logo-container {
+               
+        display: inline-block;
+        
+        max-width: 70px;
+        vertical-align: top;
+        padding: 20px 160px 20px 120px;
+        
+
+     }
+     
+     
+  p {
+      font-size: 15px;
