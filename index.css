@@ -375,3 +375,17 @@ h7{
      
   p {
       font-size: 15px;
+  }
+      .left-elem{
+
+        margin-top: 60px;
+         float: left ;
+           padding: 50px;
+       }
+      p {
+         margin-top: 100px;
+         float: right;
+         font-size: 20px;
+         padding: 60px;
+         font-style: italic;
+      }  
