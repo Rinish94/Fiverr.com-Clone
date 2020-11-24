@@ -50,3 +50,36 @@ h4{
     margin: auto;
     padding: 5%;
 }
+#container2{
+    width: 97% ;
+    margin:10px;
+    padding: 1%;
+    background-color: rgb(231, 231, 231);
+    height: 500px;
+}
+#container2 > div{
+    color: rgb(112, 111, 111);
+}
+h4{
+    font-size: 30px;
+    line-height: 30px;
+    color:  rgba(58, 55, 55, 0.836);
+}
+.col2{
+    
+    float: left;
+}
+.img-box2{
+    border: 1px ;
+}
+
+.img-box2 > img{
+    width: 95%;
+    height:250px;
+}
+.smallImg > img{
+    border-radius: 80%;
+   float: left;
+   margin: auto;
+
+}
