@@ -1,3 +1,222 @@
-body {
-    background-color: aquamarine;
+* {
+    font-family: 'Roboto', sans-serif;
+    color: white;
 }
+body {
+    margin: 0px;
+}
+/* container for landing page */
+.container {
+    width: 100%;
+    height: 900px;
+    background-image: url("https://wallpaperaccess.com/full/1288329.jpg");
+}
+
+/* .navigation class for navigation bar */
+.navigation {
+    width: 100%;
+    background-color: rgb(192, 192, 174);
+    height: 100px;
+    position: fixed;
+    background: transparent;
+}
+.navigation > img {
+    width: 150px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.navigation > a {
+    font-size: 23px;
+    text-decoration: none;
+    color: white;
+    float: right;
+    margin: 40px 15px;
+}
+.navigation > button {
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 3px;
+    padding: 0px 30px;
+    font-size: 22px;
+    height: 40px;
+    float: right;
+    margin: 35px 60px 15px 20px;
+    cursor: pointer;
+}
+
+/* welcome part of landing page  */
+.welcome {
+    float: left;
+    margin: 280px 40px;
+    width: fit-content;
+}
+.welcome > h1 {
+    float: left; 
+    font-size: 60px;
+    margin: 5px;
+}
+.welcome > p {
+    float: left;
+    font-size: 60px;
+    font-family: 'Lobster', cursive;
+    margin: 3px;
+    padding-left: 10px;
+}
+.input {
+    width: 680px;
+    height: 60px;
+    background-color: white;
+    border-radius: 5px 0px 0px 5px;
+    float: left;
+    font-size: 22px;
+    margin-top: 20px;
+}
+.input > p {
+    margin: 12px;
+    color: grey;
+}
+.search {
+    background-color: rgb(19, 190, 119);
+    color: white;
+    float: left;
+    width: 130px;
+    height: 60px;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 22px;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+
+}
+.search > p {
+    margin: 12px auto;
+}
+
+/* buttons below search bar  */
+.popular {
+    float: left;
+    font-size: 20px;
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.popular > h4 {
+    float: left;
+    margin-top: 0px;
+}
+.popular > button {
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: 18px;
+    background: transparent;
+    margin: 0px 10px;
+    cursor: pointer;
+    padding: 4px 12px;
+}
+.get_started {
+    width: fit fit-content;
+    height: 500px;
+    background-image: url("https://fiverr-res.cloudinary.com/q_auto,f_auto,w_1400,dpr_1.0/v1/attachments/generic_asset/asset/50218c41d277f7d85feeaf3efb4549bd-1599072608122/bg-signup-1400-x1.png");
+    background-size: 100%;
+    margin: 30px;
+}
+/* start green button  */
+.start_btn {
+    background-color: rgb(19, 190, 119);
+    clear: both;
+    color: white;
+    float: left;
+    margin: 30px auto;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer; 
+    padding: 5px;   
+}  
+.start_btn > p {
+    margin: 10px 30px;
+} 
+.start {
+    margin:120px 100px ;
+}
+
+/* fiverr business section 
+.business {
+    background-color: rgb(9, 9, 104);
+    height: 800px;
+    width: 100%;
+    color: white;
+}
+.left_part {
+    width: 50%;
+}
+.right_part {
+    display: grid;
+    width: 50%;
+    float: right;
+    /* margin-top: 10px; */
+/* }
+.blue_top{
+    float: left;
+    margin: 70px 50px 10px;
+}
+#new {
+    float: left;
+    background-color: rgb(92, 92, 218);
+    width: fit-content;
+    border-radius: 20px;
+    padding: 2px 15px;
+    margin-top: 35px;
+    font-size: small;
+}
+.blue_top > h1 {
+     float: left;
+}
+.blue_top > p {
+    float: left;
+    font-size: 35px;
+    margin: 18px 5px;
+}
+.blue_mid {
+    clear: both;
+    float: left;
+    font-size: 40px;
+    margin: 0px 50px;
+}
+.blue_mid > h2 {
+    float: left; 
+    font-size: 45px;
+    margin: 5px;
+}
+.blue_mid > p{
+    float: left;
+    font-size: 45px;
+    font-family: 'Lobster', cursive;
+    margin: 3px 10px;
+}
+.text {
+    float: left;
+    color: white;
+    font-size: 25px;
+    margin: 5px 50px 0px;
+}
+.list {
+    float: left;
+    color: white;
+    margin: 5px 50px;
+}
+.list > img {
+    float: left;
+    width: 30px;
+}
+.list > p {
+    float: left;
+    font-size: 20px;
+    margin: 5px 10px;
+    
+}
+.explore_btn {
+    margin: 50px;
+}
+.right_part > img {
+    float: right;
+}  */
