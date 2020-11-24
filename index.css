@@ -83,3 +83,41 @@ h4{
    margin: auto;
 
 }
+#container3{
+    width: 97% ;
+    margin:10px;
+    padding: 1%;
+    background-color: rgb(255, 250, 250);
+    height: 500px;
+}
+#container3 > div{
+    color: rgb(112, 111, 111);
+}
+h4{
+    font-size:xx-large;
+    font-weight: 20px;
+    font-size: 30px;
+    line-height: 30px;
+    color:  rgba(39, 38, 38, 0.836);
+}
+.col3{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.img-box3{
+    border: 1px ;
+}
+
+.img-box3 > img{
+    width: 90%;
+    height:220px;
+}
+h3{
+    font-size:20px;
+    color: black;
+}
+h7{
+    margin-top:5px;
+    font-size:18px;
+    }
