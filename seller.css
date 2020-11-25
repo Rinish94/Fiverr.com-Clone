@@ -1,0 +1,151 @@
+
+* {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+body {
+    margin: 0px;
+}
+.clear {
+    clear: both;
+}
+
+/* .navigation class for navigation bar */
+.navigation {
+    width: 100%;
+    background-color: white;
+    height: 80px;
+    /* background: transparent; */
+}
+.navigation > img {
+    float: left;
+    width: 120px;
+    cursor: pointer;
+    padding: 12px;
+}
+.navigation > a {
+    font-size: 18px;
+    text-decoration: none;
+    color: grey;
+    float: right;
+    margin: 30px 15px;
+}
+a:hover {
+    color: rgb(70, 197, 70);
+}
+#selected {
+    color: rgb(58, 192, 58);
+}
+.navigation > button {
+    border: 1px solid rgb(26, 150, 26);
+    background: transparent;
+    color: rgb(31, 160, 31);
+    border-radius: 5px;
+    padding: 0px 12px;
+    font-size: 18px;
+    height: 35px;
+    float: right;
+    margin: 22px 60px 15px 20px;
+    cursor: pointer;
+}
+button:hover {
+ background-color:rgb(87, 204, 155) ;
+ border-color: rgb(87, 204, 155);
+ color: white;   
+}
+.input {
+    width: 350px;
+    height: 30px;
+    border: 1px solid rgb(173, 171, 171);
+    border-radius: 5px ;
+    float: left;
+    font-size: 15px;
+    margin: 25px 0px 30px 40px;
+}
+.input >img {
+    width: 18px;
+    padding: 5px;
+    float: left;
+}
+.input > p {
+    margin: 8px;
+    color: grey;
+    float: left;
+}
+.search {
+    background-color: rgb(19, 190, 119);
+    color: white;
+    float: right;
+    width: 90px;
+    height: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+}
+.search:hover {
+    background-color:rgb(87, 204, 155) ;
+}
+.search > p {
+    margin: 8px;
+}
+/* container for landing page */
+.container { 
+    width: 100%;
+    height: 430px;
+    background-image: url("https://lacenlingerie.com/wp-content/uploads/2014/02/Girl_laptop.jpg");
+    text-align: center;
+    background-attachment: fixed;
+    padding-top: 150px;
+    position: relative;
+}
+.welcome {
+    height: 400px;
+    width: 800px;
+    margin: auto;
+}
+.welcome > h1 {
+    font-size: 50px;
+}
+.welcome > p {
+    font-size: 22px;
+    line-height: 2px;
+}
+.green_btn {
+    background-color: rgb(19, 190, 119);
+    color: white;
+    border: none;
+    margin: 25px auto;
+    font-size: 15px;
+    border-radius: 3px;
+    cursor: pointer; 
+    padding: 12px 35px; 
+}
+.land_bottom {
+    height: 120px;
+    width: 100%;
+    background-color: grey;
+    opacity: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    display: flex;
+}
+.banner {  
+    height: 100px;
+    width: fit-content;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 2px;
+    padding: 10px;
+}
+.banner > p:nth-child(1) {
+    font-size: 23px;
+}
+.banner > p:nth-child(2) {
+    font-size: 40px;
+}
+.empty {
+    height: 500px;
+    width: 100%
+}
