@@ -1,7 +1,8 @@
+/* Lokesh css code  */
+
 
 * {
     font-family: 'Roboto', sans-serif;
-    color: white;
 }
 body {
     margin: 0px;
@@ -11,19 +12,19 @@ body {
 }
 
 /* .navigation class for navigation bar */
-.navigation {
+.navigation_lks_pg2 {
     width: 100%;
     background-color: white;
     height: 80px;
     /* background: transparent; */
 }
-.navigation > img {
+.navigation_lks_pg2 > img {
     float: left;
-    width: 120px;
+    width: 100px;
     cursor: pointer;
-    padding: 12px;
+    padding: 22px 25px;
 }
-.navigation > a {
+.navigation_lks_pg2 > a {
     font-size: 18px;
     text-decoration: none;
     color: grey;
@@ -36,7 +37,7 @@ a:hover {
 #selected {
     color: rgb(58, 192, 58);
 }
-.navigation > button {
+.navigation_lks_pg2 > button {
     border: 1px solid rgb(26, 150, 26);
     background: transparent;
     color: rgb(31, 160, 31);
@@ -89,7 +90,7 @@ button:hover {
     margin: 8px;
 }
 /* container for landing page */
-.container { 
+.container_lks_pg2 { 
     width: 100%;
     height: 430px;
     background-image: url("https://lacenlingerie.com/wp-content/uploads/2014/02/Girl_laptop.jpg");
@@ -97,16 +98,17 @@ button:hover {
     background-attachment: fixed;
     padding-top: 150px;
     position: relative;
+    color: white;
 }
-.welcome {
+.welcome_lks_pg2 {
     height: 400px;
     width: 800px;
     margin: auto;
 }
-.welcome > h1 {
+.welcome_lks_pg2 > h1 {
     font-size: 50px;
 }
-.welcome > p {
+.welcome_lks_pg2 > p {
     font-size: 22px;
     line-height: 2px;
 }
@@ -124,31 +126,111 @@ button:hover {
     height: 120px;
     width: 100%;
     background-color: grey;
-    opacity: 50%;
+    opacity: 70%;
     position: absolute;
     bottom: 0;
     left: 0;
     margin: auto;
     display: flex;
 }
-.banner {  
+.banner_land_lks_pg2 {  
     height: 100px;
     width: fit-content;
-    border: 1px solid black;
+    margin: 0px 110px;
     text-align: center;
     line-height: 2px;
     padding: 10px;
 }
-.banner > p:nth-child(1) {
+.banner_land_lks_pg2 > p:nth-child(1) {
     font-size: 23px;
 }
-.banner > p:nth-child(2) {
+.banner_land_lks_pg2 > p:nth-child(2) {
     font-size: 40px;
 }
-.empty {
-    height: 500px;
-    width: 100%
+.footer_pg2 {
+    width: 100%;
+    background-color: rgb(250, 246, 240);
+    height: 400px;
+    margin: 50px auto;
+    padding-top: 30px;
 }
+.footer_pg2 > h1 {
+    text-align: center;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 50px 50px 50px;
+    grid-gap: 50px;
+    justify-content: center;
+}
+.grid > div {
+    width: 500px;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.grid > div > h4 {
+    float: left;
+    margin: 15px 20px 5px;
+} 
+.grid > div:hover {
+    background-color: rgb(212, 203, 200);
+}
+.arrow_down {
+    float: right;
+    margin: 20px;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.footer_pg2_button {
+    text-align: center;
+}
+.footer_pg2_button > p{
+    color: grey;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.foot_bar > img {
+   float: left;
+   width: 80px;
+   padding:2px  20px;
+   cursor: pointer;
+}
+.foot_bar >p:nth-of-type(1) {
+    float: left;
+    color: grey;
+    cursor: pointer;
+    font-size: 16px;
+}
+.foot_bar >p:nth-of-type(2) {
+    float: left;
+    font-size: 15px;
+    color: rgb(155, 153, 153);
+    margin-left: 35px;
+}
+.social > img {
+    width: 20px;
+    float: right;
+    padding: 10px 20px ;
+}
+.social > p{
+    float: right;
+    color: grey;
+    font-size: 15px;
+    margin: 8px 25px;
+}
+.social {
+    cursor: pointer;
+}
+
+
+/* Rinish css code */
 
 #container2_1{
     width: 100%;

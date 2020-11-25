@@ -1,4 +1,4 @@
-
+/* lokesh css code */
 * {
     font-family: 'Roboto', sans-serif;
     
@@ -263,6 +263,40 @@
 .explore_btn:hover {
     background-color: rgb(14, 151, 94);
 }
+.foot_bar > img {
+    float: left;
+    width: 80px;
+    padding:2px  20px;
+    cursor: pointer;
+ }
+ .foot_bar >p:nth-of-type(1) {
+     float: left;
+     color: grey;
+     cursor: pointer;
+     font-size: 16px;
+ }
+ .foot_bar >p:nth-of-type(2) {
+     float: left;
+     font-size: 15px;
+     color: rgb(155, 153, 153);
+     margin-left: 35px;
+ }
+ .social > img {
+     width: 20px;
+     float: right;
+     padding: 10px 20px ;
+ }
+ .social > p{
+     float: right;
+     color: grey;
+     font-size: 15px;
+     margin: 8px 25px;
+ }
+ .social {
+     cursor: pointer;
+ }
+
+ /* rinish css code */
 
 #container1{
     max-width: 100% ;
