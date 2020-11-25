@@ -139,7 +139,7 @@ body {
     margin:120px 100px ;
 }
 
-/* fiverr business section 
+ /* fiverr business section  */
 .business {
     background-color: rgb(9, 9, 104);
     height: 800px;
@@ -154,7 +154,10 @@ body {
     width: 50%;
     float: right;
     /* margin-top: 10px; */
-/* }
+ }
+ .right_part > img {
+    float: right;
+} 
 .blue_top{
     float: left;
     margin: 70px 50px 10px;
@@ -217,6 +220,4 @@ body {
 .explore_btn {
     margin: 50px;
 }
-.right_part > img {
-    float: right;
-}  */
+ 
