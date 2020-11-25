@@ -349,27 +349,21 @@ h7{
         background-color: rgb(222, 244, 252);
       }
         
-      .elem> .right-elem{
+       .right-elem{
 
           
            float: right;  
            height: 600px;
            padding: 2%;
            margin: 100px;
-       
-           
-        }
-
-        
-        .elem>.left-elem {
+    }
+  
+        .left-elem {
            margin: 80px;
          }
          
             
-            
-         
-         
-      .logo-container>p {
+        .logo-container>p {
           font-size: 15px;
       }
      .l1 {
