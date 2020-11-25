@@ -359,4 +359,129 @@ h7{
     font-size:18px;
     }
 
+    .elem {
+        border: solid white;
+        background-color: rgb(222, 244, 252);
+      }
+  
+      .right-elem {
+  
+  
+        float: right;
+        height: 600px;
+        padding: 2%;
+        margin: 100px;
+  
+  
+      }
+  
+  
+      .left-elem {
+        margin: 80px;
+      }
+  
+  
+  
+  
+  
+      .logo-container>p {
+        font-size: 15px;
+      }
+  
+      .l1 {
+        width: 100px;
+        padding: 10px 150px;
+      }
+  
+      .l2 {
+        width: 100px;
+        padding: 10px 150px;
+      }
+  
+      .l3 {
+        width: 100px;
+        padding: 10px 150px;
+      }
+  
+      .l4 {
+        width: 100px;
+        padding: 10px 150px;
+      }
+  
+      .l5 {
+        width: 100px;
+        padding: 10px 150px;
+  
+      }
+  
+      .l6 {
+        width: 100px;
+        padding: 10px 150px;
+      }
+  
+      .l7 {
+        width: 100px;
+        padding: 10px 150px;
+      }
+  
+      .l8 {
+        width: 100px;
+        padding: 10px 150px;
+  
+      }
+  
+      .row {
+        display: flex;
+        padding: 10px 50px;
+  
+      }
+  
+      .row_1 {
+        display: flex;
+        padding: 10px 50px;
+      }
+  
+      .left-element {
+  
+        margin-top: 10px;
+        float: left;
+        padding: 20px;
+      }
+  
+  
+      .para>p {
+        margin-top: 10px;
+        float: right;
+        font-size: 25px;
+        padding: 20px 100px 0px 0px;
+        font-style: italic;
+      }
+  
+  
+      dl {
+        margin: 0;
+  
+        font-size: 17px;
+  
+        padding: 0px;
+  
+      }
+  
+      .col-5 {
+        display: inline-block;
+        width: 18.7%;
+        min-width: 230px;
+        vertical-align: top;
+      }
+  
+      .footer-outer {
+        padding: 10px 10px;
+  
+  
+      }
+  
     
+  
+      .clear {
+        clear: both;
+      }
