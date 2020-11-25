@@ -43,6 +43,7 @@
     float: right;
     margin: 30px 60px 15px 20px;
     cursor: pointer;
+    color: white;
 }
 .navigation > button:hover {
     background-color:rgb(19, 190, 119);
@@ -54,6 +55,7 @@
 
 /* welcome part of landing page  */
 .welcome {
+    color: white;
     float: left;
     margin: 200px 40px;
     width: fit-content;
@@ -111,9 +113,6 @@
     float: left;
     margin-top: 20px;
     font-family: 'Roboto', sans-serif;
-    
-    
-
 }
 .popular > h3 {
     float: left;
@@ -131,6 +130,7 @@
     margin: 0px 8px;
     cursor: pointer;
     padding: 3px 10px;
+    color: white;
 }
 .popular > button:hover {
     background-color: white;
