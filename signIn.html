@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signIn.css" />
+    <link rel="stylesheet" href="signIn.js" />
+    <script src="signIn.js"></script>
+</head>
+
+<body>
+    <dialog id="requirement">
+        <form class="popUp">
+            <section>
+                <h2 class="joinHeading">Join Fiverr</h2>
+                <div class="fgaBtn">
+                    <button class="faceBtn">continue with facebook</button><br />
+                    <button class="fgaBtn2">continue with Google</button><br />
+                    <button class="fgaBtn2">continue with Apple</button>
+                </div>
+                <div></div>
+                <p class="or_text">---------------------OR---------------------</p>
+                <br />
+                <div class="fgaBtn">
+                    <input class="fgaBtn2" type="text" placeholder="Enter your email" id="name" /><br />
+                    <button class="contBtn">Continue</button>
+                </div>
+                <p class="secondline">By joining I agree to receive emails from Fiverr.</p>
+                <button class="lastBtn">Already a member? Sign In</button>
+            </section>
+        </form>
+    </dialog>
+
+    <menu>
+        <button id="Join">Join</button>
+    </menu>
+    <script>
+        (function () {
+            var joinBtn = document.getElementById('Join');
+            var dialog = document.getElementById('requirement');
+
+            function openCheck(dialog) {
+                if (dialog.open) {
+                    console.log('Dialog open');
+                } else {
+                    console.log('Dialog closed');
+                }
+            }
+
+            // Update button opens a modal dialog
+            joinBtn.addEventListener('click', function () {
+                dialog.showModal();
+                openCheck(dialog);
+            });
+
+            // Form cancel button closes the dialog box
+            joinBtn.addEventListener('dblclick', function () {
+                dialog.close('no Data');
+                openCheck(dialog);
+            });
+
+        })();
+    </script>
+
+
+</body>
+
+</html>

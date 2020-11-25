@@ -1,0 +1,55 @@
+#Join{
+    background-color: rgb(117, 204, 67);
+    width: 100px;
+    float: right
+ }
+.joinHeading{
+text-align: center;
+font-size: larger; 
+font-family:Georgia, 'Times New Roman', Times, serif;
+color: rgb(95, 95, 95);
+
+}
+.or_text{
+padding-top:10% ;
+color: grey;
+text-align: center;
+}
+.popUp{
+height: 400px;
+}
+.fgaBtn{
+display: grid;
+padding-bottom: 12%;
+height: 40px;
+
+}
+.fgaBtn2{
+height: 25px;
+background-color: white;
+font-weight: 700;
+color: grey;
+}
+.faceBtn{
+background-color: rgba(28, 146, 241, 0.911);
+color: white;
+height: 25px;
+font-weight: 700;
+}
+.contBtn{
+background-color: rgb(90, 216, 90);
+font-weight: 700;
+color: white;
+height: 30px;
+}
+.lastBtn{
+width: 400px;
+height: 30px;
+color: grey;
+background-color: white;
+}
+.secondline{
+text-align: center;
+font-size: small;
+color: grey;
+}
