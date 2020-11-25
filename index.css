@@ -102,9 +102,10 @@ body {
     font-family: 'Roboto', sans-serif;
 
 }
-.popular > h4 {
+.popular > h3 {
     float: left;
     margin-top: 0px;
+    color: white;
 }
 .popular > button {
     border: 1px solid white;
