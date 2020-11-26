@@ -1,30 +1,40 @@
 /* lokesh css code */
 * {
-    font-family: 'Roboto', sans-serif;
-    
+    font-family: 'Roboto', sans-serif;   
+}
+body {
+    margin: 0px;
 }
 /* container for landing page */
 .container {
+    margin: 0px;
     width: 100%;
     height: 680px;
-    background-image: url("https://wallpaperaccess.com/full/1288329.jpg");
+    background-image: url("https://images.unsplash.com/photo-1524572245948-c324491f3dc1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    background-size: cover;
 }
 .clear
 {
     clear:both;
 }
 /* .navigation class for navigation bar */
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 0.2s;
+  }
 .navigation {
     width: 100%;
-    height: 80px;
+    height: 100px;
     position: fixed;
     /* background-color: rgb(192, 192, 174); */
     /* background: transparent; */
 }
 .navigation > img {
-    width: 100px;
+    width: 120px;
     cursor: pointer;
-    margin-left: 50px;
+    padding: 25px 35px;
 }
 .navigation > a {
     font-size: 18px;
@@ -33,7 +43,7 @@
     float: right;
     margin: 40px 15px;
 }
-.navigation > button {
+#join {
     border: 1px solid white;
     background: transparent;
     border-radius: 3px;
@@ -45,14 +55,13 @@
     cursor: pointer;
     color: white;
 }
-.navigation > button:hover {
+#join:hover {
     background-color:rgb(19, 190, 119);
     border-color: rgb(19, 190, 119);
 }
 .navigation > a:hover {
-    color: rgb(161, 159, 159);
+    color: rgb(19, 190, 119);
 }
-
 /* welcome part of landing page  */
 .welcome {
     color: white;
@@ -136,18 +145,13 @@
     background-color: white;
     color: rgb(75, 74, 74);
 }
-.get_started {
-    width: fit fit-content;
-    height: 400px;
-    padding: 4px 12px;
 
-}
 .get_started {
     width: 100%;
-    height: 420px;
+    height: 400px;
     background-image: url("https://fiverr-res.cloudinary.com/q_auto,f_auto,w_1400,dpr_1.0/v1/attachments/generic_asset/asset/50218c41d277f7d85feeaf3efb4549bd-1599072608122/bg-signup-1400-x1.png");
     background-size: 100%;
-    margin: 30px;
+    margin: 20px;
 }
 /* start green button  */
 .start_btn {
@@ -188,13 +192,13 @@
 .right_part {
     display: flex;
     padding-top: 8%;
-    padding-left: 5%;
+    /* padding-left: 4%; */
     /* justify-content: right; */
     /* width: 45%; */
  }
  .right_part > img {
     float: right;
-    width: 650px;
+    width: 600px;
 }
 .blue_top{
     float: left;
@@ -325,7 +329,7 @@ h4{
 }
 .img-box1_1{
     background-image: url("https://fiverr-res.cloudinary.com/q_auto,f_auto,w_255,dpr_1.0/v1/attachments/generic_asset/asset/055f758c1f5b3a1ab38c047dce553860-1598561741678/logo-design-2x.png");
-    height: 360px;
+    height: 320px;
     width: 240px;
 }
 .img-box1_2{
@@ -350,7 +354,8 @@ h4{
 }
 #container2{
     width: 100% ;
-    margin:10px;
+    /* width: fit-content; */
+    /* margin:10px; */
     padding: 1%;
     background-color: rgb(231, 231, 231);
     height: 500px;
@@ -370,7 +375,7 @@ h4{
 .img-box2{
     display: flex;
     justify-content: space-between;
-    margin: 20px;
+    /* margin: 20px; */
     width: 100%;
     border: 1px ;
 }
@@ -387,7 +392,7 @@ h4{
 }
 #container3{
     width: 100% ;
-    margin:10px;
+    /* margin:10px; */
     padding: 1%;
     background-color: rgb(255, 250, 250);
     height: 500px;
@@ -418,129 +423,145 @@ h4{
 }
 h3{
     font-size:20px;
-    color: black;
+    color: grey;
 }
 h7{
     margin-top:5px;
     font-size:18px;
     }
 
-    .elem {
-        border: solid white;
-        width: 100%;
-        background-color: rgb(222, 244, 252);
-      }
-  
-      .right-elem {
-  
-  
-        float: right;
-        height: 600px;
-        padding: 2%;
-        margin: 100px;
-  
-  
-      }
-  
-  
-      .left-elem {
-        margin: 80px;
-      }
-  
+.section {
+    width: 100%;
+    height: 500px;
+    margin: 20px;
+}    
+.elem {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(248, 250, 242);
+    /* margin: 20px; */
+    }
 
-  
-      .l1 {
-        width: 70px;
-        padding: 10px 100px;
-      }
-  
-      .l2 {
-        width: 70px;
-        padding: 10px 120px;
-      }
-  
-      .l3 {
-        width: 70px;
-        padding: 10px 120px;
-      }
-  
-      .l4 {
-        width: 70px;
-        padding: 10px 120px;
-      }
-  
-      .l5 {
-        width: 70px;
-        padding: 10px 100px;
-  
-      }
-  
-      .l6 {
-        width: 70px;
-        padding: 10px 120px;
-      }
-  
-      .l7 {
-        width: 70px;
-        padding: 10px 120px;
-      }
-  
-      .l8 {
-        width: 70px;
-        padding: 10px 120px;
-  
-      }
-     .logo { 
-        width: 100%;;  
-       text-align: center;
-  }
+    .right-elem {
+    float: right;
+    height: 650px;
+    padding-top: 100px;
+    /* padding-right: 30px; */
+    /* margin: 100px; */
+    }
+
+
+    .left-elem {
+    margin: 80px 20px 10px 50px;
+    color: grey;
+    float: left;
+    }
+    .left-elem > h3 {
+        color: grey;
+    }
+    
+    .l1 {
+    width: 70px;
+    padding: 10px 80px;
+    }
+
+    .l2 {
+    width: 70px;
+    padding: 10px 80px;
+    }
+
+    .l3 {
+    width: 70px;
+    padding: 10px 80px;
+    }
+
+    .l4 {
+    width: 70px;
+    padding: 10px 80px;
+    }
+
+    .l5 {
+    width: 70px;
+    padding: 10px 80px;
+
+    }
+
+    .l6 {
+    width: 70px;
+    padding: 10px 80px;
+    }
+
+    .l7 {
+    width: 70px;
+    padding: 10px 80px;
+    }
+
+    .l8 {
+    width: 70px;
+    padding: 10px 80px;
+
+    }
+.logo { 
+    width: 100%;;  
+    text-align: left; 
+    margin-top: 10px;
+}
+.logo >h1 {
+    padding-left: 20px;
+}
   .row_2 {
     display: flex;
-    padding: 3%;
+    justify-content: space-around;
+    /* padding: 2%; */
   }
-  
-      .row_3 {
-        display: flex;
-        padding: 3%;
-      }
-  
-      .left-element {
 
-        margin-top: 10px;
-        float: left;
-        padding: 20px;
-      }
-      .cont {
-          width: 100%;
-      }
-  
-      .para>p {
-        margin-top: 10px;
-        float: right;
-        font-size: 25px;
-        padding: 20px 100px 0px 0px;
-        font-style: italic;
-      }
-  
-     .col-5> dl {
-        
-        font-size: 17px;
-  
-      }
-  
-      .col-5 {
-        display: inline-block;
-       vertical-align: top;
-       padding: 3%;
-    
-      }
-  
-      .row {
-        display: inline-block;
-        padding: 1%;
+    .row_3 {
+    display: flex;
+    justify-content: space-around;
+    /* padding: 2%; */
+    }
+
+    .cont {
         width: 100%;
-       
-}
+    }
+
+    .left-element{
+        float: left;
+        padding: 50px 20px 50px 120px;
+    }
+    .para {
+    /* margin-top: 10px; */
+    float: right;
+    font-size: 25px;
+    padding: 80px 40px;
+    font-style: italic;
+    color: rgb(17, 80, 17);
+    }
+
+    .col-5> dl {
     
-  
+    font-size: 17px;
+
+    }
+
+    .col-5 {
+    display: inline-block;
+    vertical-align: top;
+    padding: 3%;
+
+    }
     
+    .col-5 > dl > dt >a {
+        text-decoration: none;
+        color: grey;
+    }
+    
+
+    .row {
+    display: inline-block;
+    padding: 1%;
+    width: 100%;      
+    }
+
+
+
